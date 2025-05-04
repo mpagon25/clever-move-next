@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function NavBar() {
@@ -9,18 +10,10 @@ export default function NavBar() {
         </div>
 
         <div className="flex flex-3 font-bold justify-around">
-          <div>
-            <p>Home</p>
-          </div>
-          <div>
-            <p>Service</p>
-          </div>
-          <div>
-            <p>About us</p>
-          </div>
-          <div>
-            <p>Contact us</p>
-          </div>
+          <Link href={""}>Home</Link>
+          <Link href={""}>Service</Link>
+          <Link href={""}>About us</Link>
+          <Link href={""}>Contact us</Link>
         </div>
         <div className="flex flex-2 justify-end font-bold h-[54px]">
           <p className="h-full flex items-center pr-5 pl-5 mr-4">Login</p>
