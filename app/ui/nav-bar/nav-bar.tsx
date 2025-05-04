@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav className="static flex justify-center h-25 shadow-[2px_-2px_10px_rgba(3,3,3,0.1)]">
+    <nav className="fixed w-full flex justify-center h-25 shadow-[2px_-2px_10px_rgba(3,3,3,0.1)]">
       <div className="flex max-w-[1440px] w-full items-center">
         <div className="flex flex-2">
           <p className="text-3xl font-bold ">Clever Move</p>
