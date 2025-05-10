@@ -3,7 +3,7 @@ import React, { JSX } from "react";
 
 export default function HeroSection(): JSX.Element {
   return (
-    <>
+    <div className="mb-40">
       <div className="mb-18 flex row w-full justify-between">
         <div className="mt-28">
           <div className="mb-10">
@@ -45,6 +45,6 @@ export default function HeroSection(): JSX.Element {
           tedious task of moving into your new home.
         </p>
       </div>
-    </>
+    </div>
   );
 }

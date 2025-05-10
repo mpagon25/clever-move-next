@@ -1,0 +1,11 @@
+import React, { PropsWithChildren } from "react";
+
+type SectionCardProps = PropsWithChildren;
+
+export default function SectionCard({ children }: SectionCardProps) {
+  return (
+    <div className="w-full rounded-2xl border-black shadow-[2px_0px_10px_rgba(3,3,3,0.1)] pt-20 pb-20 pr-15 pl-15">
+      {children}
+    </div>
+  );
+}
