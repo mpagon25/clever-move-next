@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Right on time.",
+    "subTitle": "Swift",
+    "text": "Your time is valuable — and we respect that. Clever Move delivers punctual service with military precision. Whether it's across town or cross-country, we stick to schedule and keep you updated at every turn",
+    "imageSrc": "/WhyUsImage01.png",
+    "alt": "Why us 1"
+  },
+  {
+    "title": "No guesswork. Just smart planning?",
+    "subTitle": "Ready",
+    "text": "Every move is mapped, timed, and optimized before we hit the road. With Clever Move, you get efficiency without cutting corners — and clear communication from start to finish.",
+    "imageSrc": "/WhyUsImage01.png",
+    "alt": "Why us 2"
+  },
+  {
+    "title": "Trusted by clients. Backed by results.",
+    "subTitle": "Proven",
+    "text": "We've built our reputation one flawless move at a time. From first box to final placement, our team delivers dependable results — and it shows in our reviews, referrals, and repeat customers.",
+    "imageSrc": "/WhyUsImage01.png",
+    "alt": "Why us 3"
+  },
+  {
+    "title": "Moved with care. Protected with pride.",
+    "subTitle": "Secure",
+    "text": "Your belongings aren't just “stuff” — they're part of your life. That's why we use expert packing, careful handling, and proven safety methods to make sure everything arrives just as it left.",
+    "imageSrc": "/WhyUsImage01.png",
+    "alt": "Why us 4"
+  }
+]
