@@ -6,7 +6,6 @@ import DiscoverySection from "./ui/discovery-section/discovery-section";
 import WhyUsSection from "./ui/why-us-section/why-us-section";
 import whyUsData from "./data/why-us-data.json";
 import AboutUsSection from "./ui/about-us-section/about-us-section";
-import Footer from "./ui/footer/footer";
 
 export default function Home(): JSX.Element {
   return (
