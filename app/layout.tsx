@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}>
         <NavBar />
         <div className="flex justify-center">
-          <div className="pt-25 max-w-[1168px] w-full">{children}</div>
+          <div className="pt-25 max-w-[1168px]">{children}</div>
         </div>
         <Footer />
       </body>

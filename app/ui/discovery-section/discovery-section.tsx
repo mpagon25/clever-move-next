@@ -4,7 +4,11 @@ import Image from "next/image";
 
 export default function DiscoverySection() {
   return (
-    <SectionCard className="mb-40 scroll-mt-30" id="discovery-section">
+    <SectionCard
+      className="mb-40 scroll-mt-30"
+      id="discovery-section"
+      fullWidth
+    >
       <div className="flex row justify-between">
         <div>
           <h2 className="text-5xl font-bold pb-8">

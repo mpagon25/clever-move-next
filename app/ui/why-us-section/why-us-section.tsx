@@ -10,7 +10,7 @@ export default function WhyUsSection({
   dataList,
 }: WhyUsSectionProps): React.JSX.Element {
   return (
-    <SectionCard className="mb-40 scroll-mt-30" id="why-us-section">
+    <SectionCard className="mb-40 scroll-mt-30" id="why-us-section" fullWidth>
       <h2 className="text-5xl font-bold mb-20">Why Us?</h2>
       {dataList.map((reasonItem, index) => (
         <React.Fragment key={index}>
