@@ -3,7 +3,7 @@ import SectionCard from "../section-card/section-card";
 
 export default function AboutUsSection() {
   return (
-    <SectionCard className="flex mb-40">
+    <SectionCard className="flex mb-40" id="about-us-section">
       <div className="flex-1 leading-12">
         <h3 className="font-bold text-[48px]">About us</h3>
       </div>
