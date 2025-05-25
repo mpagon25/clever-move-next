@@ -16,7 +16,10 @@ export default function NavBar(): JSX.Element {
         </div>
         <div className="flex flex-2 justify-end font-bold h-[54px]">
           <p className="h-full flex items-center pr-5 pl-5 mr-4">Login</p>
-          <button className="w-[120px] h-full rounded-full text-white bg-[#2A5F69]">
+          <button
+            type="button"
+            className="w-[120px] h-full rounded-full text-white bg-[#2A5F69]"
+          >
             Sign Up
           </button>
         </div>

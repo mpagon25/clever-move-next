@@ -19,12 +19,16 @@ export default function HeroSection(): JSX.Element {
           </div>
           <div className="flex h-13 row font-bold">
             <button
+              type="button"
               className="h-full min-w-30 pl-5 pr-5 mr-7 rounded-full bg-[#2A5F69] text-white"
               onClick={() => alert("hello")}
             >
               Book now!
             </button>
-            <button className="h-full min-w-30 pl-5 pr-5 rounded-full border-2 border-[#2A5F69] text-[#2A5F69]">
+            <button
+              type="button"
+              className="h-full min-w-30 pl-5 pr-5 rounded-full border-2 border-[#2A5F69] text-[#2A5F69]"
+            >
               Explore service
             </button>
           </div>

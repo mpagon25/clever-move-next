@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import { montserrat } from "./fonts";
 import NavBar from "./ui/nav-bar/nav-bar";
 import Footer from "./ui/footer/footer";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Clever Move",
