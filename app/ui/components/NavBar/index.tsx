@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import React, { JSX } from "react";
-import Modal from "../Modal";
-import Input from "../Input";
+import Modal from "@/components/Modal";
+import LoginModalContent from "./LoginModalContent";
+import SignUpModalContent from "./SignUpModalContent";
 
 export default function NavBar(): JSX.Element {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
@@ -10,30 +11,6 @@ export default function NavBar(): JSX.Element {
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
-
-  const loginModalContent: JSX.Element = (
-    <div>
-      <Input label="Email" type="email" className="mb-4" />
-      <Input label="Password" type="password" className="mb-8" />
-      <div className="flex flex-row justify-between">
-        <div className="flex-1 flex flex-col justify-between">
-          <p className="hover:underline font-bold text-lg text-[#2A5F69]">
-            Forgot Password?
-          </p>
-          <p className="text-xs">
-            Not having an account yet? <span>Sign Up!</span>
-          </p>
-        </div>
-        <button
-          type="submit"
-          className="font-bold px-6 h-[54px] rounded-full text-white bg-[#2A5F69]"
-        >
-          Log in
-        </button>
-      </div>
-    </div>
-  );
-  const signUpModalContent: JSX.Element = <div>signup</div>;
 
   return (
     <>
@@ -79,7 +56,11 @@ export default function NavBar(): JSX.Element {
         onClose={toggleModal}
         title={isLoginModal ? "Log In" : "Sign Up"}
       >
-        {isLoginModal ? loginModalContent : signUpModalContent}
+        {isLoginModal ? (
+          <LoginModalContent onSwitchToSignUp={() => setIsLoginModal(false)} />
+        ) : (
+          <SignUpModalContent onSwitchToLogin={() => setIsLoginModal(true)} />
+        )}
       </Modal>
     </>
   );
