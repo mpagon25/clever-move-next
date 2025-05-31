@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import React, { JSX } from "react";
-import Modal from "../modal/modal";
-import Input from "../input/input";
+import Modal from "../Modal";
+import Input from "../Input";
 
 export default function NavBar(): JSX.Element {
   const [isModalOpen, setIsModalOpen] = React.useState(false);

@@ -1,7 +1,7 @@
 import React from "react";
-import SectionCard from "../section-card/section-card";
-import { WhyUsItem } from "@/types/why-us";
-import WhyUsReasonItem from "../why-us-item/why-us-reason-item";
+import SectionCard from "../../components/SectionCard";
+import { WhyUsItem } from "@/types";
+import WhyUsReasonItem from "../../components/WhyUsReasonItem";
 
 type WhyUsSectionProps = {
   dataList: WhyUsItem[];

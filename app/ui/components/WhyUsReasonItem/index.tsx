@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { WhyUsItem } from "@/types/why-us";
+import { WhyUsItem } from "@/types";
 
 type WhyUsReasonItemProps = {
   descFirst?: boolean;

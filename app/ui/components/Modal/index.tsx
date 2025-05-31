@@ -1,7 +1,7 @@
 "use client";
 import { ReactNode, useEffect } from "react";
 import { createPortal } from "react-dom";
-import SectionCard from "../section-card/section-card";
+import SectionCard from "@/components/SectionCard";
 
 type ModalProps = {
   isOpen: boolean;

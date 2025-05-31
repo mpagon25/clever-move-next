@@ -1,5 +1,5 @@
 import React from "react";
-import SectionCard from "../section-card/section-card";
+import SectionCard from "@/components/SectionCard";
 import Image from "next/image";
 
 export default function DiscoverySection() {

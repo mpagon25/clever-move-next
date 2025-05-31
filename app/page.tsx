@@ -1,19 +1,19 @@
 "use client";
 
-import HeroSection from "./ui/hero-section/hero-section";
-import DiscoverySection from "./ui/discovery-section/discovery-section";
-import WhyUsSection from "./ui/why-us-section/why-us-section";
+import Hero from "./ui/sections/Hero";
+import Discovery from "./ui/sections/Discovery";
+import WhyUs from "./ui/sections/WhyUs";
 import whyUsData from "./data/why-us-data.json";
-import AboutUsSection from "./ui/about-us-section/about-us-section";
+import AboutUs from "./ui/sections/AboutUs";
 import { JSX } from "react";
 
 export default function Home(): JSX.Element {
   return (
     <div>
-      <HeroSection />
-      <DiscoverySection />
-      <WhyUsSection dataList={whyUsData} />
-      <AboutUsSection />
+      <Hero />
+      <Discovery />
+      <WhyUs dataList={whyUsData} />
+      <AboutUs />
     </div>
   );
 }
